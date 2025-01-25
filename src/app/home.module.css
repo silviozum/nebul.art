@@ -33,7 +33,7 @@
     left: 50%;
     margin-left: -100px;
     -webkit-animation: rotate-scale-up 0.65s linear both;
-    animation: rotate-scale-up 0.65s linear both;
+    animation: rotate-scale-up 0.8s linear both;
 
 }
 
@@ -91,19 +91,23 @@
 
 /*-------------------------------------------------*/
 
-
+.mainHome {
+    position: relative;
+}
 .navgateTags {
-    width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-    box-sizing: border-box;
-    padding: 100px 0;
+    width: 702px;
+    transform: rotate(90deg);
+    left: -158px;
+    position: absolute;
 }
 
 .navgateTags div {
     display: inline-block;
-    padding-left: 10px;
-    animation: marquee-animation 10s linear infinite;
+    width: 300px;
+    text-align: center;
+    animation: marquee-animation 2s linear infinite;
+    font-size: 60px;
+    color: #fff;
 }
 
 @keyframes marquee-animation {

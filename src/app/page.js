@@ -10,7 +10,7 @@ export default function Home() {
 
         <div className={styles.containerVideo}>
           <video
-            src="/videos/gummy.mp4"
+            src="/videos/all.mp4"
             autoPlay
             loop
             muted
@@ -18,20 +18,22 @@ export default function Home() {
             className={styles.video}
           />
         </div>
-        <div className={styles.homeFeatured}>
-          <h1>NEBUL.ART</h1>
-          <p>Lorem Ipsum is simply dummy text of the printing and  typesetting industry
-            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever 
-            since the 1500s, when an unknown printer  took a galley of type and scrambled it took a galley of type and scrambled it to 
-            make a type specimen book.</p>
-        </div>
+        <div className={styles.mainHome}>
+          <div className={styles.homeFeatured}>
+            <h1>NEBUL.ART</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and  typesetting industry
+              typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever 
+              since the 1500s, when an unknown printer  took a galley of type and scrambled it took a galley of type and scrambled it to 
+              make a type specimen book.</p>
+          </div>
 
-        <div className={styles.navgateTags}>
-            <div>#ART</div>
-            <div>#STREET</div>
-            <div>#VELLASQUEZ</div>
-            <div>#DILEMA</div>
-            <div>#TRETA</div>
+          <div className={styles.navgateTags}>
+              <div>#ART</div>
+              <div>#STREET</div>
+              <div>#VELLASQUEZ</div>
+              <div>#DILEMA</div>
+              <div>#TRETA</div>
+          </div>
         </div>
         </main>
     </div>
